@@ -6,8 +6,8 @@ describe('sum function', () => {
     expect(result).toBe(3);
   });
 
-  it('runs a broken test', () => {
+  it('runs a (un)broken test', () => {
     const result = sum(2, 3);
-    expect(result).toBe(23)
+    expect(result).toBe(5);
   });
 })
